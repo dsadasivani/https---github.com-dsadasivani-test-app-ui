@@ -35,4 +35,4 @@ jobs:
 
       - name: Deploy
         if: success()
-        run: aws s3 sync ./dist/test-app-ui s3://angular-github-actions-test-app
+        run: aws s3 sync ./dist/test-app-ui s3://www.indoconstructionchemicals.co.in
